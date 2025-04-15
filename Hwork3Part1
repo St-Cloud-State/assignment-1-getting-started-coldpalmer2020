@@ -1,0 +1,495 @@
+Script started on 2025-04-15 04:32:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="106" LINES="10"]
+[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ s
+udo apt-get update[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+bash: udo: command not found
+[0;32m@coldpalmer2020 [1;31m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ sudo apt-get update
+0% [Working]            Get:1 https://packages.microsoft.com/repos/microsoft-ubuntu-focal-prod focal InRelease [3632 B]
+0% [Connecting to archive.ubuntu.com] [1 InReleas0% [Connecting to archive.ubuntu.com] [Waiting fo                                                 Get:2 https://dl.yarnpkg.com/debian stable InRelease [17.1 kB]
+0% [Connecting to archive.ubuntu.com] [2 InReleas                                                 0% [Connecting to archive.ubuntu.com]                                     0% [Waiting for headers]                        Get:3 http://archive.ubuntu.com/ubuntu focal InRelease [265 kB]
+0% [3 InRelease 14.0 kB/265 kB 5%]                                  Get:4 https://packages.microsoft.com/repos/microsoft-ubuntu-focal-prod focal/main all Packages [2938 B]
+0% [3 InRelease 14.0 kB/265 kB 5%] [4 Packages 29                                                 0% [3 InRelease 34.0 kB/265 kB 13%]0% [4 Packages store 0 B] [3 InRelease 36.8 kB/260% [3 InRelease 41.1 kB/265 kB 16%] [Waiting for                                                  Get:5 https://packages.microsoft.com/repos/microsoft-ubuntu-focal-prod focal/main amd64 Packages [347 kB]
+0% [3 InRelease 48.2 kB/265 kB 18%] [Connecting t0% [3 InRelease 78.2 kB/265 kB 30%] [Connected to0% [5 Packages store 0 B] [3 InRelease 81.1 kB/260% [5 Packages store 0 B] [Waiting for headers] [                                                 Get:6 http://archive.ubuntu.com/ubuntu focal-updates InRelease [128 kB]
+0% [5 Packages store 0 B] [6 InRelease 15.4 kB/120% [5 Packages store 0 B] [Connecting to security0% [Waiting for headers] [Connecting to security.                                                 Get:7 http://archive.ubuntu.com/ubuntu focal-backports InRelease [128 kB]
+0% [7 InRelease 48.2 kB/128 kB 38%] [Connecting t0% [Connecting to security.ubuntu.com] [Waiting f0% [Connecting to security.ubuntu.com] [Waiting f                                                 Get:8 https://dl.yarnpkg.com/debian stable/main all Packages [11.8 kB]
+0% [Connecting to security.ubuntu.com] [Waiting f0% [Connecting to security.ubuntu.com] [Waiting f0% [8 Packages store 0 B] [Connecting to security0% [Connecting to security.ubuntu.com] [Waiting f                                                 Get:9 https://dl.yarnpkg.com/debian stable/main amd64 Packages [11.8 kB]
+0% [Connecting to security.ubuntu.com] [Waiting f0% [Connecting to security.ubuntu.com] [Waiting f0% [9 Packages store 0 B] [Connecting to security0% [Connecting to security.ubuntu.com] [Waiting f                                                 Get:10 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable InRelease [3961 B]
+0% [Connecting to security.ubuntu.com] [10 InRele0% [Connecting to security.ubuntu.com] [Connectin                                                 Get:11 http://security.ubuntu.com/ubuntu focal-security InRelease [128 kB]
+0% [11 InRelease 14.0 kB/128 kB 11%] [Connecting                                                  0% [Connecting to packagecloud.io]0% [Connecting to packagecloud.io]                                  Get:12 http://archive.ubuntu.com/ubuntu focal/restricted amd64 Packages [33.4 kB]
+0% [12 Packages 24.0 kB/33.4 kB 72%] [Connecting                                                  0% [Connecting to packagecloud.io]0% [12 Packages store 0 B] [Waiting for headers] 0% [Waiting for headers] [Connecting to packagecl                                                 Get:13 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [177 kB]
+0% [13 Packages 0 B/177 kB 0%] [Connecting to pac                                                 0% [Connecting to packagecloud.io]                                  Get:14 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [11.3 MB]
+0% [14 Packages 28.3 kB/11.3 MB 0%] [Connecting t0% [13 Packages store 0 B] [14 Packages 28.3 kB/10% [14 Packages 388 kB/11.3 MB 3%] [Connecting to0% [14 Packages 8048 kB/11.3 MB 71%] [Connected t                                                 0% [Connected to packagecloud.io (52.8.31.218)]                                               Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [1275 kB]
+0% [15 Packages 112 kB/1275 kB 9%] [Connected to 0% [14 Packages store 0 B] [15 Packages 112 kB/120% [14 Packages store 0 B] [Connected to packagec                                                 Get:16 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1603 kB]
+0% [14 Packages store 0 B] [16 Packages 0 B/1603                                                  Get:17 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [4744 kB]
+0% [14 Packages store 0 B] [17 Packages 118 kB/470% [14 Packages store 0 B] [17 Packages 708 kB/47                                                 0% [14 Packages store 0 B] [Waiting for headers]                                                Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [4807 kB]
+0% [14 Packages store 0 B] [18 Packages 0 B/4807 0% [14 Packages store 0 B] [18 Packages 4807 kB/4                                                 Get:20 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [36.8 kB]
+0% [14 Packages store 0 B] [20 Packages 36.8 kB/3                                                 Get:21 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [55.2 kB]
+                                                 Get:22 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [28.6 kB]
+                                                 0% [14 Packages store 0 B]0% [14 Packages store 0 B]                          Get:23 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable/main amd64 Packages [4557 B]
+0% [14 Packages store 0 B] [23 Packages 0 B/4557                                                  0% [14 Packages store 0 B]0% [Waiting for headers] [14 Packages store 0 B]                                                Get:24 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [4320 kB]
+0% [Waiting for headers] [14 Packages store 0 B]                                                  0% [Waiting for headers] [14 Packages store 0 B]                                                Get:25 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [4548 kB]
+0% [Waiting for headers] [14 Packages store 0 B]                                                  0% [Waiting for headers] [14 Packages store 0 B]                                                Get:26 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [1306 kB]
+0% [Waiting for headers] [14 Packages store 0 B]                                                  Get:19 https://packagecloud.io/github/git-lfs/ubuntu focal InRelease [29.1 kB]
+0% [14 Packages store 0 B] [26 Packages 1306 kB/1                                                 Get:27 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [33.2 kB]
+0% [14 Packages store 0 B] [27 Packages 33.2 kB/3                                                 0% [14 Packages store 0 B]94% [14 Packages store 0 B]95% [Connected to packagecloud.io (52.8.31.218)]95% [15 Packages store 0 B] [Connected to package                                                 95% [Connected to packagecloud.io (52.8.31.218)]95% [16 Packages store 0 B] [Connected to package                                                 96% [Waiting for headers]96% [17 Packages store 0 B] [Waiting for headers]                                                 96% [17 Packages store 0 B]                           96% [Waiting for headers]96% [Waiting for headers] [18 Packages store 0 B]                                                 Get:28 https://packagecloud.io/github/git-lfs/ubuntu focal/main amd64 Packages [4064 B]
+96% [28 Packages 4064 B/4064 B 100%] [18 Packages                                                 96% [18 Packages store 0 B]                           96% [Working]96% [20 Packages store 0 B]                           97% [Working]97% [21 Packages store 0 B]                           97% [Working]97% [22 Packages store 0 B]                           98% [Working]98% [23 Packages store 0 B]                           98% [Working]98% [24 Packages store 0 B]                           98% [Working]98% [25 Packages store 0 B]                           99% [Working]99% [26 Packages store 0 B]                           99% [Working]99% [27 Packages store 0 B]                           100% [Working]100% [28 Packages store 0 B]                            100% [Working]              Fetched 35.4 MB in 3s (13.8 MB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 35%Reading package lists... 35%Reading package lists... 36%Reading package lists... 36%Reading package lists... 49%Reading package lists... 49%Reading package lists... 60%Reading package lists... 63%Reading package lists... 63%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 80%Reading package lists... 80%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ sudo apt-get inst all -y mongodb
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 35%Reading package lists... 35%Reading package lists... 36%Reading package lists... 36%Reading package lists... 49%Reading package lists... 49%Reading package lists... 63%Reading package lists... 63%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 74%Reading package lists... 80%Reading package lists... 80%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libboost-filesystem1.71.0
+  libboost-iostreams1.71.0
+  libboost-program-options1.71.0
+  libgoogle-perftools4 libpcap0.8 libsnappy1v5
+  libtcmalloc-minimal4 libyaml-cpp0.6
+  mongo-tools mongodb-clients mongodb-server
+  mongodb-server-core
+The following NEW packages will be installed:
+  libboost-filesystem1.71.0
+  libboost-iostreams1.71.0
+  libboost-program-options1.71.0
+  libgoogle-perftools4 libpcap0.8 libsnappy1v5
+  libtcmalloc-minimal4 libyaml-cpp0.6
+  mongo-tools mongodb mongodb-clients
+  mongodb-server mongodb-server-core
+0 upgraded, 13 newly installed, 0 to remove and 46 not upgraded.
+Need to get 56.9 MB of archives.
+After this operation, 234 MB of additional disk space will be used.
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpcap0.8 amd64 1.9.1-3ubuntu1.20.04.1 [128 kB]
+0% [1 libpcap0.8 14.0 kB/128 kB 11%]                                    2% [Working]            Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost-filesystem1.71.0 amd64 1.71.0-6ubuntu6 [242 kB]
+2% [2 libboost-filesystem1.71.0 4096 B/242 kB 2%]                                                 4% [Waiting for headers]                        Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost-iostreams1.71.0 amd64 1.71.0-6ubuntu6 [237 kB]
+4% [3 libboost-iostreams1.71.0 7248 B/237 kB 3%]                                                Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost-program-options1.71.0 amd64 1.71.0-6ubuntu6 [342 kB]
+5% [4 libboost-program-options1.71.0 19.1 kB/342                                                  Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libtcmalloc-minimal4 amd64 2.7-1ubuntu2 [93.0 kB]
+                                                 8% [5 libtcmalloc-minimal4 33.2 kB/93.0 kB 36%]                                               9% [Waiting for headers]                        Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 libgoogle-perftools4 amd64 2.7-1ubuntu2 [195 kB]
+9% [6 libgoogle-perftools4 15.5 kB/195 kB 8%]                                             Get:7 http://archive.ubuntu.com/ubuntu focal/main amd64 libyaml-cpp0.6 amd64 0.6.2-4ubuntu1 [124 kB]
+                                             11% [7 libyaml-cpp0.6 32.8 kB/124 kB 26%]                                         Get:8 http://archive.ubuntu.com/ubuntu focal/universe amd64 mongo-tools amd64 3.6.3-0ubuntu1 [12.3 MB]
+                                         13% [8 mongo-tools 97.0 kB/12.3 MB 1%]                                      Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libsnappy1v5 amd64 1.1.8-1build1 [16.7 kB]
+                                      Get:10 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 mongodb-clients amd64 1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3 [21.6 MB]
+33% [10 mongodb-clients 65.5 kB/21.6 MB 0%]                                           65% [Working]             Get:11 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 mongodb-server-core amd64 1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3 [21.6 MB]
+65% [11 mongodb-server-core 0 B/21.6 MB 0%]                                           Get:12 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 mongodb-server all 1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3 [12.5 kB]
+                                           Get:13 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 mongodb amd64 1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3 [9640 B]
+                                           100% [Working]              Fetched 56.9 MB in 1s (90.3 MB/s)
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+Selecting previously unselected package libpcap0.8:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70096 files and directories currently installed.)
+Preparing to unpack .../00-libpcap0.8_1.9.1-3ubuntu1.20.04.1_amd64.deb ...
+Unpacking libpcap0.8:amd64 (1.9.1-3ubuntu1.20.04.1) ...
+Selecting previously unselected package libboost-filesystem1.71.0:amd64.
+Preparing to unpack .../01-libboost-filesystem1.71.0_1.71.0-6ubuntu6_amd64.deb ...
+Unpacking libboost-filesystem1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Selecting previously unselected package libboost-iostreams1.71.0:amd64.
+Preparing to unpack .../02-libboost-iostreams1.71.0_1.71.0-6ubuntu6_amd64.deb ...
+Unpacking libboost-iostreams1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Selecting previously unselected package libboost-program-options1.71.0:amd64.
+Preparing to unpack .../03-libboost-program-options1.71.0_1.71.0-6ubuntu6_amd64.deb ...
+Unpacking libboost-program-options1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Selecting previously unselected package libtcmalloc-minimal4:amd64.
+Preparing to unpack .../04-libtcmalloc-minimal4_2.7-1ubuntu2_amd64.deb ...
+Unpacking libtcmalloc-minimal4:amd64 (2.7-1ubuntu2) ...
+Selecting previously unselected package libgoogle-perftools4:amd64.
+Preparing to unpack .../05-libgoogle-perftools4_2.7-1ubuntu2_amd64.deb ...
+Unpacking libgoogle-perftools4:amd64 (2.7-1ubuntu2) ...
+Selecting previously unselected package libyaml-cpp0.6:amd64.
+Preparing to unpack .../06-libyaml-cpp0.6_0.6.2-4ubuntu1_amd64.deb ...
+Unpacking libyaml-cpp0.6:amd64 (0.6.2-4ubuntu1) ...
+Selecting previously unselected package mongo-tools.
+Preparing to unpack .../07-mongo-tools_3.6.3-0ubuntu1_amd64.deb ...
+Unpacking mongo-tools (3.6.3-0ubuntu1) ...
+Selecting previously unselected package libsnappy1v5:amd64.
+Preparing to unpack .../08-libsnappy1v5_1.1.8-1build1_amd64.deb ...
+Unpacking libsnappy1v5:amd64 (1.1.8-1build1) ...
+Selecting previously unselected package mongodb-clients.
+Preparing to unpack .../09-mongodb-clients_1%3a3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3_amd64.deb ...
+Unpacking mongodb-clients (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Selecting previously unselected package mongodb-server-core.
+Preparing to unpack .../10-mongodb-server-core_1%3a3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3_amd64.deb ...
+Unpacking mongodb-server-core (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Selecting previously unselected package mongodb-server.
+Preparing to unpack .../11-mongodb-server_1%3a3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3_all.deb ...
+Unpacking mongodb-server (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Selecting previously unselected package mongodb.
+Preparing to unpack .../12-mongodb_1%3a3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3_amd64.deb ...
+Unpacking mongodb (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Setting up libtcmalloc-minimal4:amd64 (2.7-1ubuntu2) ...
+Setting up libboost-filesystem1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Setting up libboost-iostreams1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Setting up libsnappy1v5:amd64 (1.1.8-1build1) ...
+Setting up libpcap0.8:amd64 (1.9.1-3ubuntu1.20.04.1) ...
+Setting up libyaml-cpp0.6:amd64 (0.6.2-4ubuntu1) ...
+Setting up mongo-tools (3.6.3-0ubuntu1) ...
+Setting up libgoogle-perftools4:amd64 (2.7-1ubuntu2) ...
+Setting up libboost-program-options1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Setting up mongodb-clients (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Setting up mongodb-server-core (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Setting up mongodb-server (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Created symlink /etc/systemd/system/multi-user.target.wants/mongodb.service → /lib/systemd/system/mongodb.service.
+Setting up mongodb (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.17) ...
+Processing triggers for systemd (245.4-4ubuntu3.24) ...
+[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ mkdir -p /data/db [A
+mkdir: cannot create directory ‘/data’: Permission denied
+[0;32m@coldpalmer2020 [1;31m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ mkdir -p ~/data/db\[K
+[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ mongod --dbpath ~/data/db --bind_ip 127.0.0.1 --port 27017
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] MongoDB starting : pid=11697 port=27017 dbpath=/home/codespace/data/db 64-bit host=codespaces-9aff0a
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] db version v3.6.8
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f80a
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] modules: none
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] build environment:
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/home/codespace/data/db" } }
+2025-04-15T04:37:15.320+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3457M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2025-04-15T04:37:15.534+0000 I STORAGE  [initandlisten] WiredTiger message [1744691835:534292][11697:0x75712e5faac0], txn-recover: Set global recovery timestamp: 0
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.550+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: 9aba58c9-c590-4a0d-a0aa-67ca7e8b6747
+2025-04-15T04:37:15.557+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+2025-04-15T04:37:15.559+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: db0a5b60-625a-40ab-b1d8-672a9295766c
+2025-04-15T04:37:15.566+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/home/codespace/data/db/diagnostic.data'
+2025-04-15T04:37:15.567+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2025-04-15T04:37:15.567+0000 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: 70ae1042-98a6-4dfa-a6d0-21c5cd19b4ff
+2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+mongo --host 127.0.0.1 --port 27017
+
+
+2025-04-15T04:39:53.571+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:46852 #1 (1 connection now open)
+2025-04-15T04:39:53.571+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:46852 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-15T04:42:42.761+0000 I STORAGE  [conn1] createCollection: acme_corp.applications with generated UUID: 6ad561b0-7343-4afc-9955-712db037526c
+2025-04-15T04:47:39.281+0000 I NETWORK  [conn1] end connection 127.0.0.1:46852 (0 connections now open)
+exit
+	
+^C2025-04-15T04:51:55.413+0000 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2025-04-15T04:51:55.413+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2025-04-15T04:51:55.413+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2025-04-15T04:51:55.413+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2025-04-15T04:51:55.416+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2025-04-15T04:51:55.434+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2025-04-15T04:51:55.434+0000 I CONTROL  [signalProcessingThread] now exiting
+2025-04-15T04:51:55.434+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ mongod --dbpath ~/data/db --bind_ip 127.0.0.1 --port 27017[A[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ [C[5Pkdir -p ~/data/db
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Congod --dbpath ~/data/db --bind_ip 127.0.0.1 --port 27017[A[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l Hwork3Part1
+-rw-rw-rw- 1 codespace codespace 28672 Apr 15 04:53 Hwork3Part1
+[0;32m@coldpalmer2020 [0m➜ [1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [0;36m([1;31mmain[0;36m) [0m$ cat Hwork3Part1 | less
+[?1049h[22;0;0t[?1h=Script started on 2025-04-15 04:32:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="106" LINES="1 0"]
+[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36 m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ [7m^MESC[27m[K[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment- 1-getting-started-coldpalmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ s
+[7m^M[27mu[7m^MESC[27m[A[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C
+[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C
+[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C
+[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C
+[7mESC[27m[Cu
+[7m^MESC[27m[1P[7mESC[27m[A[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m [C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[ C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C [7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C
+[7mESC[27m[C[7m^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G[27m
+
+bash: udo: command not found
+[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[1;31m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0 ;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ sudo apt-get update
+[7m^M[27m0% [Working][7m^M[27m            [7m^M[27mGet:1 https://packages.microsoft.com/repos/microsoft-ubuntu-focal-prod focal  InRelease [3632 B]
+[7m^M[27m0% [Connecting to archive.ubuntu.com] [1 InReleas[7m^M[27m0% [Connecting to archive.ubuntu.com] [Waiting fo[7m^M[27m                                                  [7m^M[27mGet:2 https://dl.yarnpkg.com/debian stable InRelease [17. 1 kB]
+[7m^M[27m0% [Connecting to archive.ubuntu.com] [2 InReleas[7m^M[27m                                                 [7m^M[27m0%  [Connecting to archive.ubuntu.com][7m^M[27m                                     [7m^M[27m0% [Waiting for headers][7m^M[27m                         [7m^M[27mGet:3 http://archive.ubuntu.com/ubuntu focal InRelease [265 kB]
+[7m^M[27m0% [3 InRelease 14.0 kB/265 kB 5%][7m^M[27m                                  [7m^M[27mGet:4 https://packages.microsoft :[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K.com/repos/microsoft-ubuntu-focal-prod focal/main all Packages [2938 B]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [3 InRelease 14.0 kB/265 kB 5%] [4 Packages 29[7m^M[27m                                                 [7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [3 InRelease 34.0 kB/265 kB 13%][7m^M[27m0% [4 Packages store 0 B] [3 InRelease 36.8 kB/26[7m^M[27m0% [3 InRelease 41.1 :[K[K [KESCESC[KOO[KBB[K kB/265 kB 16%] [Waiting for [7m^M[27m                                                 [7m^M[27mGet:5 https://packages.m :[K[K [KESCESC[KOO[KBB[Kicrosoft.com/repos/microsoft-ubuntu-focal-prod focal/main amd64 Packages [347 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [3 InRelease 48.2 kB/265 kB 18%] [Connecting t[7m^M[27m0% [3 InRelease 78.2 kB/265 kB 30%] [Connected to[7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [5 Packages store 0 B] [3 InRelease 81.1 kB/26[7m^M[27m0% [5 Packages store 0 B] [Waiting for headers] [[7m^M[27m       :[K[K [KESCESC[KOO[KBB[K                                           [7m^M[27mGet:6 http://archive.ubuntu.com/ubuntu focal-updates InReleas :[K[K [KESCESC[KOO[KBB[Ke [128 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [5 Packages store 0 B] [6 InRelease 15.4 kB/12[7m^M[27m0% [5 Packages store 0 B] [Connecting to security[7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [Waiting for headers] [Connecting to security.[7m^M[27m                                                 [7m^M[27mGet:7  :[K[K [KESCESC[KOO[KBB[Khttp://archive.ubuntu.com/ubuntu focal-backports InRelease [128 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [7 InRelease 48.2 kB/128 kB 38%] [Connecting t[7m^M[27m0% [Connecting to security.ubuntu.com] [Waiting f[7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [Connecting to security.ubuntu.com] [Waiting f[7m^M[27m                                                 [7m^M[27mGet:8  :[K[K [KESCESC[KOO[KBB[Khttps://dl.yarnpkg.com/debian stable/main all Packages [11.8 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [Connecting to security.ubuntu.com] [Waiting f[7m^M[27m0% [Connecting to security.ubuntu.com] [Waiting f[7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [8 Packages store 0 B] [Connecting to security[7m^M[27m0% [Connecting to security.ubuntu.com] [Waiting f[7m^M[27m       :[K[K [KESCESC[KOO[KBB[K                                           [7m^M[27mGet:9 https://dl.yarnpkg.com/debian stable/main amd64 Package :[K[K [KESCESC[KOO[KBB[Ks [11.8 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [Connecting to security.ubuntu.com] [Waiting f[7m^M[27m0% [Connecting to security.ubuntu.com] [Waiting f[7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [9 Packages store 0 B] [Connecting to security[7m^M[27m0% [Connecting to security.ubuntu.com] [Waiting f[7m^M[27m       :[K[K [KESCESC[KOO[KBB[K                                           [7m^M[27mGet:10 https://repo.anaconda.com/pkgs/misc/debrepo/conda stab :[K[K [KESCESC[KOO[KBB[Kle InRelease [3961 B]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [Connecting to security.ubuntu.com] [10 InRele[7m^M[27m0% [Connecting to security.ubuntu.com] [Connectin[7m^M[27m   :[K[K [KESCESC[KOO[KBB[K                                               [7m^M[27mGet:11 http://security.ubuntu.com/ubuntu focal-security I :[K[K [KESCESC[KOO[KBB[KnRelease [128 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [11 InRelease 14.0 kB/128 kB 11%] [Connecting [7m^M[27m                                                 [7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [Connecting to packagecloud.io][7m^M[27m0% [Connecting to packagecloud.io][7m^M[27m                                  [7m^M[27m :[K[K [KESCESC[KOO[KBB[K[7m^M[27mGet:12 http://archive.ubuntu.com/ubuntu focal/restricted amd64 Packages [33.4 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [12 Packages 24.0 kB/33.4 kB 72%] [Connecting [7m^M[27m                                                 [7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [Connecting to packagecloud.io][7m^M[27m0% [12 Packages store 0 B] [Waiting for headers] [7m^M[27m0% [Waiting for heade :[K[K [KESCESC[KOO[KBB[Krs] [Connecting to packagecl[7m^M[27m                                                 [7m^M[27mGet:13 http://archive.ubu :[K[K [KESCESC[KOO[KBB[Kntu.com/ubuntu focal/multiverse amd64 Packages [177 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [13 Packages 0 B/177 kB 0%] [Connecting to pac[7m^M[27m                                                 [7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [Connecting to packagecloud.io][7m^M[27m                                  [7m^M[27mGet:14 http://archive.ubuntu.com/ubu :[K[K [KESCESC[KOO[KBB[Kntu focal/universe amd64 Packages [11.3 MB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [14 Packages 28.3 kB/11.3 MB 0%] [Connecting t[7m^M[27m0% [13 Packages store 0 B] [14 Packages 28.3 kB/1[7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [14 Packages 388 kB/11.3 MB 3%] [Connecting to[7m^M[27m0% [14 Packages 8048 kB/11.3 MB 71%] [Connected t[7m^M[27m       :[K[K [KESCESC[KOO[KBB[K                                           [7m^M[27m0% [Connected to packagecloud.io (52.8.31.218)][7m^M[27m             :[K[K [KESCESC[KOO[KBB[K                                   [7m^M[27mGet:15 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [12 :[K[K [KESCESC[KOO[KBB[K75 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [15 Packages 112 kB/1275 kB 9%] [Connected to [7m^M[27m0% [14 Packages store 0 B] [15 Packages 112 kB/12[7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [14 Packages store 0 B] [Connected to packagec[7m^M[27m                                                 [7m^M[27mGet:16 :[K[K [KESCESC[KOO[KBB[K http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1603 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [14 Packages store 0 B] [16 Packages 0 B/1603 [7m^M[27m                                                 [7m^M[27mGe :[K[K [KESCESC[KOO[KBB[Kt:17 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [4744 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [14 Packages store 0 B] [17 Packages 118 kB/47[7m^M[27m0% [14 Packages store 0 B] [17 Packages 708 kB/47[7m^M[27m   :[K[K [KESCESC[KOO[KBB[K                                               [7m^M[27m0% [14 Packages store 0 B] [Waiting for headers][7m^M[27m        :[K[K [KESCESC[KOO[KBB[K                                         [7m^M[27mGet:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd6 :[K[K [KESCESC[KOO[KBB[K4 Packages [4807 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [14 Packages store 0 B] [18 Packages 0 B/4807 [7m^M[27m0% [14 Packages store 0 B] [18 Packages 4807 kB/4[7m^M[27m   :[K[K [KESCESC[KOO[KBB[K                                               [7m^M[27mGet:20 http://archive.ubuntu.com/ubuntu focal-updates/mul :[K[K [KESCESC[KOO[KBB[Ktiverse amd64 Packages [36.8 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [14 Packages store 0 B] [20 Packages 36.8 kB/3[7m^M[27m                                                 [7m^M[27mGe :[K[K [KESCESC[KOO[KBB[Kt:21 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [55.2 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m                                                 [7m^M[27mGet:22 http://archive.ubuntu.com/ubuntu focal-backpor :[K[K [KESCESC[KOO[KBB[Kts/universe amd64 Packages [28.6 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m                                                 [7m^M[27m0% [14 Packages store 0 B][7m^M[27m0% [14 Packages store 0 B :[K[K [KESCESC[KOO[KBB[K][7m^M[27m                          [7m^M[27mGet:23 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable/main amd64  :[K[K [KESCESC[KOO[KBB[KPackages [4557 B]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [14 Packages store 0 B] [23 Packages 0 B/4557 [7m^M[27m                                                 [7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [14 Packages store 0 B][7m^M[27m0% [Waiting for headers] [14 Packages store 0 B][7m^M[27m                               :[K[K [KESCESC[KOO[KBB[K                  [7m^M[27mGet:24 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [4320 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [Waiting for headers] [14 Packages store 0 B] [7m^M[27m                                                 [7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [Waiting for headers] [14 Packages store 0 B][7m^M[27m                                                [7m^M[27mGet:25 h :[K[K [KESCESC[KOO[KBB[Kttp://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [4548 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [Waiting for headers] [14 Packages store 0 B] [7m^M[27m                                                 [7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [Waiting for headers] [14 Packages store 0 B][7m^M[27m                                                [7m^M[27mGet:26 h :[K[K [KESCESC[KOO[KBB[Kttp://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [1306 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [Waiting for headers] [14 Packages store 0 B] [7m^M[27m                                                 [7m^M[27mGe :[K[K [KESCESC[KOO[KBB[Kt:19 https://packagecloud.io/github/git-lfs/ubuntu focal InRelease [29.1 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [14 Packages store 0 B] [26 Packages 1306 kB/1[7m^M[27m                                                 [7m^M[27mGe :[K[K [KESCESC[KOO[KBB[Kt:27 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [33.2 kB]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m0% [14 Packages store 0 B] [27 Packages 33.2 kB/3[7m^M[27m                                                 [7m^M[27m0% :[K[K [KESCESC[KOO[KBB[K [14 Packages store 0 B][7m^M[27m94% [14 Packages store 0 B][7m^M[27m95% [Connected to packagecloud.io (52.8.31.218)][7m^M[27m9 :[K[K [KESCESC[KOO[KBB[K5% [15 Packages store 0 B] [Connected to package[7m^M[27m                                                 [7m^M[27m95% [ :[K[K [KESCESC[KOO[KBB[KConnected to packagecloud.io (52.8.31.218)][7m^M[27m95% [16 Packages store 0 B] [Connected to package[7m^M[27m           :[K[K [KESCESC[KOO[KBB[K                                       [7m^M[27m96% [Waiting for headers][7m^M[27m96% [17 Packages store 0 B] [Waiting f :[K[K [KESCESC[KOO[KBB[Kor headers][7m^M[27m                                                 [7m^M[27m96% [17 Packages store 0 B][7m^M[27m              :[K[K [KESCESC[KOO[KBB[K              [7m^M[27m96% [Waiting for headers][7m^M[27m96% [Waiting for headers] [18 Packages store 0 B][7m^M[27m             :[K[K [KESCESC[KOO[KBB[K                                     [7m^M[27mGet:28 https://packagecloud.io/github/git-lfs/ubuntu focal/main amd :[K[K [KESCESC[KOO[KBB[K64 Packages [4064 B]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m96% [28 Packages 4064 B/4064 B 100%] [18 Packages[7m^M[27m                                                 [7m^M[27m96 :[K[K [KESCESC[KOO[KBB[K% [18 Packages store 0 B][7m^M[27m                           [7m^M[27m96% [Working][7m^M[27m96% [20 Packages store 0 B][7m^M[27m       :[K[K [KESCESC[KOO[KBB[K                     [7m^M[27m97% [Working][7m^M[27m97% [21 Packages store 0 B][7m^M[27m                           [7m^M[27m97% [Worki :[K[K [KESCESC[KOO[KBB[Kng][7m^M[27m97% [22 Packages store 0 B][7m^M[27m                           [7m^M[27m98% [Working][7m^M[27m98% [23 Packages store 0 B]
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27m                           [7m^M[27m98% [Working][7m^M[27m98% [24 Packages store 0 B][7m^M[27m                           [7m^M[27m98 :[K[K [KESCESC[KOO[KBB[K% [Working][7m^M[27m98% [25 Packages store 0 B][7m^M[27m                           [7m^M[27m99% [Working][7m^M[27m99% [26 Packages sto :[K[K [KESCESC[KOO[KBB[Kre 0 B][7m^M[27m                           [7m^M[27m99% [Working][7m^M[27m99% [27 Packages store 0 B][7m^M[27m                         :[K[K [KESCESC[KOO[KBB[K   [7m^M[27m100% [Working][7m^M[27m100% [28 Packages store 0 B][7m^M[27m                            [7m^M[27m100% [Working][7m^M[27m          :[K[K [KESCESC[KOO[KBB[K     [7m^M[27mFetched 35.4 MB in 3s (13.8 MB/s)
+:[K[K [KESCESC[KOO[KBB[K[7m^M[27mReading package lists... 0%[7m^M[27mReading package lists... 0%[7m^M[27mReading package lists... 0%[7m^M[27mReading package l :[K[K [KESCESC[KOO[KBB[Kists... 3%[7m^M[27mReading package lists... 3%[7m^M[27mReading package lists... 3%[7m^M[27mReading package lists... 3%[7m^M[27mReading :[K[K [KESCESC[KOO[KBB[K package lists... 35%[7m^M[27mReading package lists... 35%[7m^M[27mReading package lists... 36%[7m^M[27mReading package lists.. :[K[K [KESCESC[KOO[KBB[K. 36%[7m^M[27mReading package lists... 49%[7m^M[27mReading package lists... 49%[7m^M[27mReading package lists... 60%[7m^M[27mReading p :[K[K [KESCESC[KOO[KBB[Kackage lists... 63%[7m^M[27mReading package lists... 63%[7m^M[27mReading package lists... 68%[7m^M[27mReading package lists...  :[K[K [KESCESC[KOO[KBB[K68%[7m^M[27mReading package lists... 68%[7m^M[27mReading package lists... 68%[7m^M[27mReading package lists... 68%[7m^M[27mReading pac :[K[K [KESCESC[KOO[KBB[Kkage lists... 68%[7m^M[27mReading package lists... 68%[7m^M[27mReading package lists... 68%[7m^M[27mReading package lists... 80 :[K[K [KESCESC[KOO[KBB[K%[7m^M[27mReading package lists... 80%[7m^M[27mReading package lists... 94%[7m^M[27mReading package lists... 94%[7m^M[27mReading packa :[K[K [KESCESC[K[[[K66[K~~[Kge lists... 97%[7m^M[27mReading package lists... 97%[7m^M[27mReading package lists... 98%[7m^M[27mReading package lists... 98%
+[7m^M[27mReading package lists... 98%[7m^M[27mReading package lists... 98%[7m^M[27mReading package lists... 98%[7m^M[27mReading packag e lists... 98%[7m^M[27mReading package lists... 99%[7m^M[27mReading package lists... 99%[7m^M[27mReading package lists... 99%[7m^M[27m [7m^M[27mReading package lists... 99%[7m^M[27mReading package lists... 99%[7m^M[27mReading package lists... 99%[7m^M[27mReading packag e lists... 99%[7m^M[27mReading package lists... 99%[7m^M[27mReading package lists... Done
+[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36 m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ sudo apt-get inst [7m^M[27mall -y mongodb
+[7m^M[27mReading package lists... 0%[7m^M[27mReading package lists... 0%[7m^M[27mReading package lists... 0%[7m^M[27mReading package l ists... 3%[7m^M[27mReading package lists... 3%[7m^M[27mReading package lists... 3%[7m^M[27mReading package lists... 3%[7m^M[27mReading  package lists... 35%[7m^M[27mReading package lists... 35%[7m^M[27mReading package lists... 36%[7m^M[27mReading package lists.. . 36%[7m^M[27mReading package lists... 49%[7m^M[27mReading package lists... 49%[7m^M[27mReading package lists... 63%[7m^M[27mReading p ackage lists... 63%[7m^M[27mReading package lists... 68%[7m^M[27mReading package lists... 68%[7m^M[27mReading package lists...  68%[7m^M[27mReading package lists... 68%[7m^M[27mReading package lists... 68%[7m^M[27mReading package lists... 68%[7m^M[27mReading pac kage lists... 68%[7m^M[27mReading package lists... 68%[7m^M[27mReading package lists... 74%[7m^M[27mReading package lists... 80 %[7m^M[27mReading package lists... 80%[7m^M[27mReading package lists... 94%[7m^M[27mReading package lists... 94%[7m^M[27mReading packa ge lists... 97%[7m^M[27mReading package lists... 97%[7m^M[27mReading package lists... 98%[7m^M[27mReading package lists... 98%
+[7m^M[27mReading package lists... 98%[7m^M[27mReading package lists... 98%[7m^M[27mReading package lists... 98%[7m^M[27mReading packag e lists... 98%[7m^M[27mReading package lists... 99%[7m^M[27mReading package lists... 99%[7m^M[27mReading package lists... 99%[7m^M[27m [7m^M[27mReading package lists... 99%[7m^M[27mReading package lists... 99%[7m^M[27mReading package lists... 99%[7m^M[27mReading packag e lists... 99%[7m^M[27mReading package lists... 99%[7m^M[27mReading package lists... Done
+[7m^M[27mBuilding dependency tree... 0%[7m^M[27mBuilding dependency tree... 0%[7m^M[27mBuilding dependency tree... 50%[7m^M[27mBuildin g dependency tree... 50%[7m^M[27mBuilding dependency tree       
+[7m^M[27mReading state information... 0%[7m^M[27mReading state information... 0%[7m^M[27mReading state information... Done
+The following additional packages will be installed:
+  libboost-filesystem1.71.0
+  libboost-iostreams1.71.0
+  libboost-program-options1.71.0
+  libgoogle-perftools4 libpcap0.8 libsnappy1v5
+:[K[K [KESCESC[K[[[K66[K~~[K  libtcmalloc-minimal4 libyaml-cpp0.6
+  mongo-tools mongodb-clients mongodb-server
+  mongodb-server-core
+The following NEW packages will be installed:
+  libboost-filesystem1.71.0
+  libboost-iostreams1.71.0
+  libboost-program-options1.71.0
+  libgoogle-perftools4 libpcap0.8 libsnappy1v5
+  libtcmalloc-minimal4 libyaml-cpp0.6
+  mongo-tools mongodb mongodb-clients
+  mongodb-server mongodb-server-core
+0 upgraded, 13 newly installed, 0 to remove and 46 not upgraded.
+Need to get 56.9 MB of archives.
+After this operation, 234 MB of additional disk space will be used.
+[7m^M[27m0% [Working][7m^M[27m            [7m^M[27mGet:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpcap0.8 a md64 1.9.1-3ubuntu1.20.04.1 [128 kB]
+[7m^M[27m0% [1 libpcap0.8 14.0 kB/128 kB 11%][7m^M[27m                                    [7m^M[27m2% [Working][7m^M[27m            [7m^M[27m [7m^M[27mGet:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost-filesystem1.71.0 amd64 1.71.0-6ubuntu6  [242 kB]
+[7m^M[27m2% [2 libboost-filesystem1.71.0 4096 B/242 kB 2%][7m^M[27m                                                 [7m^M[27m4%  [Waiting for headers][7m^M[27m                        [7m^M[27mGet:3 http://archive.ubuntu.com/ubuntu focal/main amd64  libboost-iostreams1.71.0 amd64 1.71.0-6ubuntu6 [237 kB]
+[7m^M[27m4% [3 libboost-iostreams1.71.0 7248 B/237 kB 3%][7m^M[27m                                                [7m^M[27mGet: 4 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost-program-options1.71.0 amd64 1.71.0-6ubuntu6 [ 342 kB]
+[7m^M[27m5% [4 libboost-program-options1.71.0 19.1 kB/342 [7m^M[27m                                                 [7m^M[27mGe t:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libtcmalloc-minimal4 amd64 2.7-1ubuntu2 [93.0 kB]
+[7m^M[27m                                                 [7m^M[27m8% [5 libtcmalloc-minimal4 33.2 kB/93.0 kB 36%][7m^M[27m     :[K[K [KESCESC[K[[[K66[K~~[K                                           [7m^M[27m9% [Waiting for headers][7m^M[27m                        [7m^M[27mGet:6 htt p://archive.ubuntu.com/ubuntu focal/main amd64 libgoogle-perftools4 amd64 2.7-1ubuntu2 [195 kB]
+[7m^M[27m9% [6 libgoogle-perftools4 15.5 kB/195 kB 8%][7m^M[27m                                             [7m^M[27mGet:7 http ://archive.ubuntu.com/ubuntu focal/main amd64 libyaml-cpp0.6 amd64 0.6.2-4ubuntu1 [124 kB]
+[7m^M[27m                                             [7m^M[27m11% [7 libyaml-cpp0.6 32.8 kB/124 kB 26%][7m^M[27m                                          [7m^M[27mGet:8 http://archive.ubuntu.com/ubuntu focal/universe amd64 mongo-tools amd64  3.6.3-0ubuntu1 [12.3 MB]
+[7m^M[27m                                         [7m^M[27m13% [8 mongo-tools 97.0 kB/12.3 MB 1%][7m^M[27m                                       [7m^M[27mGet:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libsnappy1v5 amd64 1.1.8-1build 1 [16.7 kB]
+[7m^M[27m                                      [7m^M[27mGet:10 http://archive.ubuntu.com/ubuntu focal-updates/universe a md64 mongodb-clients amd64 1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3 [21.6 MB]
+[7m^M[27m33% [10 mongodb-clients 65.5 kB/21.6 MB 0%][7m^M[27m                                           [7m^M[27m65% [Working]
+[7m^M[27m             [7m^M[27mGet:11 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 mongodb-server-core  amd64 1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3 [21.6 MB]
+[7m^M[27m65% [11 mongodb-server-core 0 B/21.6 MB 0%][7m^M[27m                                           [7m^M[27mGet:12 http:// archive.ubuntu.com/ubuntu focal-updates/universe amd64 mongodb-server all 1:3.6.9+really3.6.8+90~g8e540c0b 6d-0ubuntu5.3 [12.5 kB]
+[7m^M[27m                                           [7m^M[27mGet:13 http://archive.ubuntu.com/ubuntu focal-updates/unive rse amd64 mongodb amd64 1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3 [9640 B]
+[7m^M[27m                                           [7m^M[27m100% [Working][7m^M[27m              [7m^M[27mFetched 56.9 MB in 1s (90.3  MB/s)
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+Selecting previously unselected package libpcap0.8:amd64.
+(Reading database ... [7m^M[27m(Reading database ... 5%[7m^M[27m(Reading database ... 10%[7m^M[27m(Reading database ... 15%[7m^M[27m(R eading database ... 20%[7m^M[27m(Reading database ... 25%[7m^M[27m(Reading database ... 30%[7m^M[27m(Reading database ... 35%[7m^M[27m :[K[K [KESCESC[K[[[K66[K~~[K[7m^M[27m(Reading database ... 40%[7m^M[27m(Reading database ... 45%[7m^M[27m(Reading database ... 50%[7m^M[27m(Reading database ... 5 5%[7m^M[27m(Reading database ... 60%[7m^M[27m(Reading database ... 65%[7m^M[27m(Reading database ... 70%[7m^M[27m(Reading database ...  75%[7m^M[27m(Reading database ... 80%[7m^M[27m(Reading database ... 85%[7m^M[27m(Reading database ... 90%[7m^M[27m(Reading database . .. 95%[7m^M[27m(Reading database ... 100%[7m^M[27m(Reading database ... 70096 files and directories currently installed. )
+Preparing to unpack .../00-libpcap0.8_1.9.1-3ubuntu1.20.04.1_amd64.deb ...
+Unpacking libpcap0.8:amd64 (1.9.1-3ubuntu1.20.04.1) ...
+Selecting previously unselected package libboost-filesystem1.71.0:amd64.
+Preparing to unpack .../01-libboost-filesystem1.71.0_1.71.0-6ubuntu6_amd64.deb ...
+Unpacking libboost-filesystem1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Selecting previously unselected package libboost-iostreams1.71.0:amd64.
+Preparing to unpack .../02-libboost-iostreams1.71.0_1.71.0-6ubuntu6_amd64.deb ...
+Unpacking libboost-iostreams1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Selecting previously unselected package libboost-program-options1.71.0:amd64.
+Preparing to unpack .../03-libboost-program-options1.71.0_1.71.0-6ubuntu6_amd64.deb ...
+Unpacking libboost-program-options1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Selecting previously unselected package libtcmalloc-minimal4:amd64.
+Preparing to unpack .../04-libtcmalloc-minimal4_2.7-1ubuntu2_amd64.deb ...
+Unpacking libtcmalloc-minimal4:amd64 (2.7-1ubuntu2) ...
+Selecting previously unselected package libgoogle-perftools4:amd64.
+Preparing to unpack .../05-libgoogle-perftools4_2.7-1ubuntu2_amd64.deb ...
+Unpacking libgoogle-perftools4:amd64 (2.7-1ubuntu2) ...
+Selecting previously unselected package libyaml-cpp0.6:amd64.
+Preparing to unpack .../06-libyaml-cpp0.6_0.6.2-4ubuntu1_amd64.deb ...
+Unpacking libyaml-cpp0.6:amd64 (0.6.2-4ubuntu1) ...
+Selecting previously unselected package mongo-tools.
+Preparing to unpack .../07-mongo-tools_3.6.3-0ubuntu1_amd64.deb ...
+Unpacking mongo-tools (3.6.3-0ubuntu1) ...
+:[K[K [KESCESC[K[[[K66[K~~[KSelecting previously unselected package libsnappy1v5:amd64.
+Preparing to unpack .../08-libsnappy1v5_1.1.8-1build1_amd64.deb ...
+Unpacking libsnappy1v5:amd64 (1.1.8-1build1) ...
+Selecting previously unselected package mongodb-clients.
+Preparing to unpack .../09-mongodb-clients_1%3a3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3_amd64.deb ...
+Unpacking mongodb-clients (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Selecting previously unselected package mongodb-server-core.
+Preparing to unpack .../10-mongodb-server-core_1%3a3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3_amd64.deb . ..
+Unpacking mongodb-server-core (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Selecting previously unselected package mongodb-server.
+Preparing to unpack .../11-mongodb-server_1%3a3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3_all.deb ...
+Unpacking mongodb-server (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Selecting previously unselected package mongodb.
+Preparing to unpack .../12-mongodb_1%3a3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3_amd64.deb ...
+Unpacking mongodb (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Setting up libtcmalloc-minimal4:amd64 (2.7-1ubuntu2) ...
+Setting up libboost-filesystem1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Setting up libboost-iostreams1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Setting up libsnappy1v5:amd64 (1.1.8-1build1) ...
+Setting up libpcap0.8:amd64 (1.9.1-3ubuntu1.20.04.1) ...
+Setting up libyaml-cpp0.6:amd64 (0.6.2-4ubuntu1) ...
+Setting up mongo-tools (3.6.3-0ubuntu1) ...
+Setting up libgoogle-perftools4:amd64 (2.7-1ubuntu2) ...
+Setting up libboost-program-options1.71.0:amd64 (1.71.0-6ubuntu6) ...
+Setting up mongodb-clients (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Setting up mongodb-server-core (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Setting up mongodb-server (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+:[K[K [KESCESC[K[[[K66[K~~[Kinvoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Created symlink /etc/systemd/system/multi-user.target.wants/mongodb.service → /lib/systemd/system/mongodb. service.
+Setting up mongodb (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.17) ...
+Processing triggers for systemd (245.4-4ubuntu3.24) ...
+[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36 m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ mkdir -p /data/db [7m^MESC[27m[A
+mkdir: cannot create directory ‘/data’: Permission denied
+[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[1;31m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0 ;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ mkdir -p ~/data/db[7mESC[27m[K
+[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36 m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ mongod --dbpath ~/data/db --bind_ip 127.0.0.1 --port 27017
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] MongoDB starting : pid=11697 port=27017 dbpath=/ho me/codespace/data/db 64-bit host=codespaces-9aff0a
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] db version v3.6.8
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f 80a
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] modules: none
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] build environment:
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", port: 27017  }, storage: { dbPath: "/home/codespace/data/db" } }
+:[K[K [KESCESC[K[[[K66[K~~[K2025-04-15T04:37:15.320+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3457M,se ssion_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=f alse,compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compresso r=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2025-04-15T04:37:15.534+0000 I STORAGE  [initandlisten] WiredTiger message [1744691835:534292][11697:0x757 12e5faac0], txn-recover: Set global recovery timestamp: 0
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the  database.
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] **          Read and write access to data and conf iguration is unrestricted.
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/en abled is 'always'.
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.550+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provid ed UUID: 9aba58c9-c590-4a0d-a0aa-67ca7e8b6747
+2025-04-15T04:37:15.557+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+2025-04-15T04:37:15.559+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated  UUID: db0a5b60-625a-40ab-b1d8-672a9295766c
+2025-04-15T04:37:15.566+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture wit h directory '/home/codespace/data/db/diagnostic.data'
+2025-04-15T04:37:15.567+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2025-04-15T04:37:15.567+0000 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessi ons with generated UUID: 70ae1042-98a6-4dfa-a6d0-21c5cd19b4ff
+2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.session :[K[K [KESCESC[K[[[K66[K~~[Ks properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfter Seconds: 1800 }
+2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh]     building index using bulk method;  build may temporarily use up to 500 megabytes of RAM
+2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total re cords. 0 secs
+mongo --host 127.0.0.1 --port 27017
+
+
+2025-04-15T04:39:53.571+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:46852 #1 (1 connecti on now open)
+2025-04-15T04:39:53.571+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:46852 conn1: { app lication: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: {  type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-15T04:42:42.761+0000 I STORAGE  [conn1] createCollection: acme_corp.applications with generated UU ID: 6ad561b0-7343-4afc-9955-712db037526c
+2025-04-15T04:47:39.281+0000 I NETWORK  [conn1] end connection 127.0.0.1:46852 (0 connections now open)
+exit
+        
+^C2025-04-15T04:51:55.413+0000 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt), will terminat e after current cmd ends
+2025-04-15T04:51:55.413+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening socket s...
+2025-04-15T04:51:55.413+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017. sock
+2025-04-15T04:51:55.413+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data c apture
+2025-04-15T04:51:55.416+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+:[K[K [KESCESC[K[[[K66[K~~[K2025-04-15T04:51:55.434+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2025-04-15T04:51:55.434+0000 I CONTROL  [signalProcessingThread] now exiting
+2025-04-15T04:51:55.434+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36 m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ [7m^MESC[27m[K[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment- 1-getting-started-coldpalmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ [7m^MESC[27m[K[7mESC[27m[0;32m@coldpalmer2020  [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m ) [7mESC[27m[0m$ [7m^MESC[27m[K[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpa lmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ [7m^MESC[27m[K[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/works paces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ mongod --dbpat h ~/data/db --bind_ip 127.0.0.1 --port 27017[7mESC[27m[A[7m^MESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/a ssignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ [7mESC[27m[C[7mESC[27m[5Pkdir -p ~/ data/db
+[7m^MESC[27m[K[7mESC[27m[A[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[ C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C [7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C
+[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C
+[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC^H^H^H^H^H^H[27m
+[7m^H^H^H^H^H^H^H^H^H[27mongod --dbpath ~/data/db --bind_ip 127.0.0.1 --port 27017[7mESC[27m[A
+[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7m(END)[27m[K[K [KESCESC[K[[[K55[K~~[K[HM        
+[HMexit
+[HM2025-04-15T04:47:39.281+0000 I NETWORK  [conn1] end connection 127.0.0.1:46852 (0 connections now open)
+[HMID: 6ad561b0-7343-4afc-9955-712db037526c
+[HM2025-04-15T04:42:42.761+0000 I STORAGE  [conn1] createCollection: acme_corp.applications with generated UU[HMtype: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+[HMlication: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { [HM2025-04-15T04:39:53.571+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:46852 conn1: { app[HMon now open)
+[HM2025-04-15T04:39:53.571+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:46852 #1 (1 connecti[HM
+[HM
+[HMmongo --host 127.0.0.1 --port 27017
+[HMcords. 0 secs
+[HM2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total re[HM build may temporarily use up to 500 megabytes of RAM
+[HM2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh]     building index using bulk method;[HMSeconds: 1800 }
+[HMs properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfter[HM2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.session[HMons with generated UUID: 70ae1042-98a6-4dfa-a6d0-21c5cd19b4ff
+[HM2025-04-15T04:37:15.567+0000 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessi[HM2025-04-15T04:37:15.567+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[HMh directory '/home/codespace/data/db/diagnostic.data'
+[HM2025-04-15T04:37:15.566+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture wit[HM UUID: db0a5b60-625a-40ab-b1d8-672a9295766c
+[HM2025-04-15T04:37:15.559+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated[HM2025-04-15T04:37:15.557+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+[29;1H[K:[K[K [KESCESC[K[[[K55[K~~[K[HMed UUID: 9aba58c9-c590-4a0d-a0aa-67ca7e8b6747
+[HM2025-04-15T04:37:15.550+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provid[HM2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+[HM2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+[HMabled is 'always'.
+[HM2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/en[HM2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+[HM2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+[HMiguration is unrestricted.
+[HM2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] **          Read and write access to data and conf[HMdatabase.
+[HM2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the [HM2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+[HM12e5faac0], txn-recover: Set global recovery timestamp: 0
+[HM2025-04-15T04:37:15.534+0000 I STORAGE  [initandlisten] WiredTiger message [1744691835:534292][11697:0x757[HMr=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[HMalse,compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compresso[HMssion_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=f[HM2025-04-15T04:37:15.320+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3457M,se[HM }, storage: { dbPath: "/home/codespace/data/db" } }
+[HM2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", port: 27017[HM2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[HM2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[HM2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] build environment:
+[HM2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] modules: none
+[HM2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[HM2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+[HM80a
+[29;1H[K:[K[K [KESCESC[K[[[K55[K~~[K[HM2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f[HM2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] db version v3.6.8
+[HMme/codespace/data/db 64-bit host=codespaces-9aff0a
+[HM2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] MongoDB starting : pid=11697 port=27017 dbpath=/ho[HMm([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ mongod --dbpath ~/data/db --bind_ip 127.0.0.1 --port 27017
+[HM[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36[HM;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ mkdir -p ~/data/db[7mESC[27m[K
+[HM[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[1;31m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0[HMmkdir: cannot create directory ‘/data’: Permission denied
+[HMm([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ mkdir -p /data/db [7m^MESC[27m[A
+[HM[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36[HMProcessing triggers for systemd (245.4-4ubuntu3.24) ...
+[HMProcessing triggers for libc-bin (2.31-0ubuntu9.17) ...
+[HMProcessing triggers for man-db (2.9.1-1) ...
+[HMSetting up mongodb (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+[HMservice.
+[HMCreated symlink /etc/systemd/system/multi-user.target.wants/mongodb.service → /lib/systemd/system/mongodb.[HMinvoke-rc.d: policy-rc.d denied execution of start.
+[HMinvoke-rc.d: could not determine current runlevel
+[HMSetting up mongodb-server (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+[HMSetting up mongodb-server-core (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+[HMSetting up mongodb-clients (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3) ...
+[HMSetting up libboost-program-options1.71.0:amd64 (1.71.0-6ubuntu6) ...
+[HMSetting up libgoogle-perftools4:amd64 (2.7-1ubuntu2) ...
+[HMSetting up mongo-tools (3.6.3-0ubuntu1) ...
+[HMSetting up libyaml-cpp0.6:amd64 (0.6.2-4ubuntu1) ...
+[HMSetting up libpcap0.8:amd64 (1.9.1-3ubuntu1.20.04.1) ...
+[HMSetting up libsnappy1v5:amd64 (1.1.8-1build1) ...
+[29;1H[K:[K[K [KESCESC[K[[[K66[K~~[K80a
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] modules: none
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] build environment:
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2025-04-15T04:37:15.319+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", port: 27017  }, storage: { dbPath: "/home/codespace/data/db" } }
+2025-04-15T04:37:15.320+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3457M,se ssion_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=f alse,compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compresso r=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2025-04-15T04:37:15.534+0000 I STORAGE  [initandlisten] WiredTiger message [1744691835:534292][11697:0x757 12e5faac0], txn-recover: Set global recovery timestamp: 0
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the  database.
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] **          Read and write access to data and conf iguration is unrestricted.
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/en abled is 'always'.
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2025-04-15T04:37:15.549+0000 I CONTROL  [initandlisten] 
+2025-04-15T04:37:15.550+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provid ed UUID: 9aba58c9-c590-4a0d-a0aa-67ca7e8b6747
+:[K[K [KESCESC[K[[[K66[K~~[K2025-04-15T04:37:15.557+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+2025-04-15T04:37:15.559+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated  UUID: db0a5b60-625a-40ab-b1d8-672a9295766c
+2025-04-15T04:37:15.566+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture wit h directory '/home/codespace/data/db/diagnostic.data'
+2025-04-15T04:37:15.567+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2025-04-15T04:37:15.567+0000 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessi ons with generated UUID: 70ae1042-98a6-4dfa-a6d0-21c5cd19b4ff
+2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.session s properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfter Seconds: 1800 }
+2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh]     building index using bulk method;  build may temporarily use up to 500 megabytes of RAM
+2025-04-15T04:37:15.578+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total re cords. 0 secs
+mongo --host 127.0.0.1 --port 27017
+
+
+2025-04-15T04:39:53.571+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:46852 #1 (1 connecti on now open)
+2025-04-15T04:39:53.571+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:46852 conn1: { app lication: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: {  type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-15T04:42:42.761+0000 I STORAGE  [conn1] createCollection: acme_corp.applications with generated UU ID: 6ad561b0-7343-4afc-9955-712db037526c
+2025-04-15T04:47:39.281+0000 I NETWORK  [conn1] end connection 127.0.0.1:46852 (0 connections now open)
+exit
+        
+:[K[K [KESCESC[K[[[K66[K~~[K^C2025-04-15T04:51:55.413+0000 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt), will terminat e after current cmd ends
+2025-04-15T04:51:55.413+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening socket s...
+2025-04-15T04:51:55.413+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017. sock
+2025-04-15T04:51:55.413+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data c apture
+2025-04-15T04:51:55.416+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2025-04-15T04:51:55.434+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2025-04-15T04:51:55.434+0000 I CONTROL  [signalProcessingThread] now exiting
+2025-04-15T04:51:55.434+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36 m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ [7m^MESC[27m[K[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment- 1-getting-started-coldpalmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ [7m^MESC[27m[K[7mESC[27m[0;32m@coldpalmer2020  [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m ) [7mESC[27m[0m$ [7m^MESC[27m[K[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/assignment-1-getting-started-coldpa lmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ [7m^MESC[27m[K[7mESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/works paces/assignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ mongod --dbpat h ~/data/db --bind_ip 127.0.0.1 --port 27017[7mESC[27m[A[7m^MESC[27m[0;32m@coldpalmer2020 [7mESC[27m[0m➜ [7mESC[27m[1;34m/workspaces/a ssignment-1-getting-started-coldpalmer2020 [7mESC[27m[0;36m([7mESC[27m[1;31mmain[7mESC[27m[0;36m) [7mESC[27m[0m$ [7mESC[27m[C[7mESC[27m[5Pkdir -p ~/ data/db
+[7m^MESC[27m[K[7mESC[27m[A[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[ C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C [7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC[27m[C[7mESC
